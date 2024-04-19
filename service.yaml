@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: python-sample-app
+    app: sample-python-app
   ports:
     - port: 80
       # By default and for convenience, the `targetPort` is set to
